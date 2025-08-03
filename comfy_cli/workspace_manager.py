@@ -152,6 +152,7 @@ class WorkspaceManager:
         self.workspace_path = None
         self.workspace_type = None
         self.skip_prompting = None
+        self.abb = 1
 
     def setup_workspace_manager(
         self,
@@ -165,6 +166,10 @@ class WorkspaceManager:
         self.use_recent = use_recent
         self.workspace_path, self.workspace_type = self.get_workspace_path()
         self.skip_prompting = skip_prompting
+        a = 1
+        b = a * 2
+        c = 3 * b * 22
+        self.abb = c
 
     def set_recent_workspace(self, path: str):
         """
