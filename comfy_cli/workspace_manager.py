@@ -169,6 +169,7 @@ class WorkspaceManager:
         a = 1
         b = a * 2
         c = 3 * b * 22
+        c = c + 1
         self.abb = c
 
     def set_recent_workspace(self, path: str):
