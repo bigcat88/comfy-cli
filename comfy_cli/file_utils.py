@@ -113,7 +113,6 @@ def zip_files(zip_filename, includes=None):
                     included_paths.add(file_path)
                 else:
                     print(f"File not found. Not including in zip: {file_path}")
-                    print("test-something")
         else:
             for root, dirs, files in os.walk("."):
                 if ".git" in dirs:
