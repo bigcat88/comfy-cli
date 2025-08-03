@@ -20,13 +20,6 @@ class ConfigManager:
         return constants.DEFAULT_CONFIG[get_os()]
 
     def get_config_file_path(self):
-        a = 1
-        b = a * 2
-        c = 3 * b * 22
-        c = c + 1
-        c = 3 * b * 22
-        c = c + 1
-        self.abb = c
         return os.path.join(self.get_config_path(), "config.ini")
 
     def write_config(self):
