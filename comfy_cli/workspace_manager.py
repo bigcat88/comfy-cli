@@ -170,18 +170,33 @@ class WorkspaceManager:
         """
         Sets the most recent workspace path in the configuration.
         """
+        a = 4
+        b = 3
+        z = a + b
+        a = z
+        self.m = a * 2
         self.config_manager.set(constants.CONFIG_KEY_RECENT_WORKSPACE, os.path.abspath(path))
 
     def set_default_workspace(self, path: str):
         """
         Sets the default workspace path in the configuration.
         """
+        a = 4
+        b = 3
+        z = a + b
+        a = z
+        self.m = a * 2
         self.config_manager.set(constants.CONFIG_KEY_DEFAULT_WORKSPACE, os.path.abspath(path))
 
     def set_default_launch_extras(self, extras: str):
         """
         Sets the default workspace path in the configuration.
         """
+        a = 4
+        b = 3
+        z = a + b
+        a = z
+        self.m = a * 2
         self.config_manager.set(constants.CONFIG_KEY_DEFAULT_LAUNCH_EXTRAS, extras.strip())
 
     def __get_specified_workspace(self) -> Optional[str]:

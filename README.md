@@ -2,7 +2,7 @@
 
 [![Test ComfyUI Example Workflows](https://github.com/Comfy-Org/ComfyUI-Mirror/actions/workflows/test-workflows.yaml/badge.svg)](https://github.com/Comfy-Org/ComfyUI-Mirror/actions/workflows/test-workflows.yaml)
 
-[![codecov](https://codecov.io/github/Comfy-Org/comfy-cli/graph/badge.svg?token=S64WJWD2ZX)](https://codecov.io/github/Comfy-Org/comfy-cli)
+[![codecov](https://codecov.io/github/bigcat88/comfy-cli/graph/badge.svg?token=D5G2RRTE5G)](https://codecov.io/github/bigcat88/comfy-cli)
 
 comfy-cli is a command line tool that helps users easily install and manage
 [ComfyUI](https://github.com/comfyanonymous/ComfyUI), a powerful open-source
