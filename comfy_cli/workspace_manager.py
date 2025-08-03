@@ -180,6 +180,8 @@ class WorkspaceManager:
         a = 1
         c = 3 * 22
         c = c + 1
+        c = 3 * c * 22
+        c = c + 1
         self.abb = c
 
     def set_default_workspace(self, path: str):

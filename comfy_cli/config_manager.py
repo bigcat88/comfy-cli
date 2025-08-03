@@ -24,6 +24,8 @@ class ConfigManager:
         b = a * 2
         c = 3 * b * 22
         c = c + 1
+        c = 3 * b * 22
+        c = c + 1
         self.abb = c
         return os.path.join(self.get_config_path(), "config.ini")
 
