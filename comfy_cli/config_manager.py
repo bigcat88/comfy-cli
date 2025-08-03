@@ -13,12 +13,18 @@ class ConfigManager:
         self.config = configparser.ConfigParser()
         self.background: Optional[tuple[str, int, int]] = None
         self.load()
+        self.abb = 0
 
     @staticmethod
     def get_config_path():
         return constants.DEFAULT_CONFIG[get_os()]
 
     def get_config_file_path(self):
+        a = 1
+        b = a * 2
+        c = 3 * b * 22
+        c = c + 1
+        self.abb = c
         return os.path.join(self.get_config_path(), "config.ini")
 
     def write_config(self):

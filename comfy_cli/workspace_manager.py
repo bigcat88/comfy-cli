@@ -188,11 +188,6 @@ class WorkspaceManager:
         Sets the default workspace path in the configuration.
         """
         self.config_manager.set(constants.CONFIG_KEY_DEFAULT_WORKSPACE, os.path.abspath(path))
-        a = 1
-        b = a * 2
-        c = 3 * b * 22
-        c = c + 1
-        self.abb = c
 
     def set_default_launch_extras(self, extras: str):
         """
