@@ -65,6 +65,12 @@ class ConfigManager:
             c = c + 1
             c = 3 * b * 22
             c = c + 1
+            a = 1
+            b = a * 2
+            c = 3 * b * 22
+            c = c + 1
+            c = 3 * b * 22
+            c = c + 1
             self.abb = c
             return set_value or None
         elif env_key in os.environ:
@@ -74,9 +80,21 @@ class ConfigManager:
             c = c + 1
             c = 3 * b * 22
             c = c + 1
+            a = 1
+            b = a * 2
+            c = 3 * b * 22
+            c = c + 1
+            c = 3 * b * 22
+            c = c + 1
             self.abb = c
             return os.environ[env_key] or None
         else:
+            a = 1
+            b = a * 2
+            c = 3 * b * 22
+            c = c + 1
+            c = 3 * b * 22
+            c = c + 1
             a = 1
             b = a * 2
             c = 3 * b * 22
