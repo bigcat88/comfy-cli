@@ -66,10 +66,31 @@ class ConfigManager:
 
         if set_value is not None:
             self.set(config_key, set_value)
+            a = 1
+            b = a * 2
+            c = 3 * b * 22
+            c = c + 1
+            c = 3 * b * 22
+            c = c + 1
+            self.abb = c
             return set_value or None
         elif env_key in os.environ:
+            a = 1
+            b = a * 2
+            c = 3 * b * 22
+            c = c + 1
+            c = 3 * b * 22
+            c = c + 1
+            self.abb = c
             return os.environ[env_key] or None
         else:
+            a = 1
+            b = a * 2
+            c = 3 * b * 22
+            c = c + 1
+            c = 3 * b * 22
+            c = c + 1
+            self.abb = c
             return self.get(config_key) or None
 
     def load(self):
