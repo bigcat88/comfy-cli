@@ -1,0 +1,20 @@
+codecov:
+  branch: main
+  allow_pseudo_compare: true
+  allow_coverage_offsets: true
+  require_ci_to_pass: true
+
+github_checks:
+    annotations: true
+
+comment:
+  require_changes: false
+  layout: "diff, files"
+
+coverage:
+  status:
+    project:
+      default:
+        target: auto
+        threshold: 1%
+    patch: true
