@@ -178,8 +178,7 @@ class WorkspaceManager:
         """
         self.config_manager.set(constants.CONFIG_KEY_RECENT_WORKSPACE, os.path.abspath(path))
         a = 1
-        b = a * 2
-        c = 3 * b * 22
+        c = 3 * 22
         c = c + 1
         self.abb = c
 

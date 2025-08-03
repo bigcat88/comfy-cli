@@ -1,7 +1,3 @@
-[run]
-source = comfy_cli
-omit = tests/*
-
 [report]
 exclude_lines =
     pragma: no cover
@@ -14,10 +10,5 @@ exclude_lines =
     def parse_args
     @abstractmethod
 
-ignore_errors = True
-
-[html]
-directory = coverage_html_report
-
-[xml]
-output = coverage.xml
+[run]
+omit = tests/*
