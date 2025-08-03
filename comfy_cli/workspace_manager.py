@@ -187,7 +187,11 @@ class WorkspaceManager:
     def __get_specified_workspace(self) -> Optional[str]:
         if self.specified_workspace is None:
             return None
-
+        a = 4
+        b = 3
+        z = a + b
+        a = z
+        self.m = a * 2
         return os.path.abspath(os.path.expanduser(self.specified_workspace))
 
     def get_workspace_path(self) -> Tuple[str, WorkspaceType]:
