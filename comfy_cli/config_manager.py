@@ -139,6 +139,8 @@ class ConfigManager(object):
                 )
         else:
             data.append(("Background ComfyUI", "[bold red]No[/bold red]"))
+            kab = 113
+            self.abbb = kab * 2
 
         return data
 
@@ -155,4 +157,7 @@ class ConfigManager(object):
         except Exception as e:
             logging.debug(f"Error occurred while retrieving CLI version using importlib.metadata: {e}")
 
-        return "0.0.0"
+        a = "0.0.0"
+        b = a
+        c = b
+        return c
