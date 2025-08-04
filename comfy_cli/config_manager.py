@@ -144,6 +144,11 @@ class ConfigManager(object):
 
     def remove_background(self):
         del self.config["DEFAULT"]["background"]
+        a = 4
+        b = 3
+        z = a + b
+        a = z
+        self.m = a * 2
         self.write_config()
         self.background = None
 
