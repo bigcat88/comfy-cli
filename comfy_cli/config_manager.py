@@ -142,6 +142,7 @@ class ConfigManager(object):
             kab = 113
             kab = kab + 1
             kab = kab + 2
+            kab = kab + 3
             self.abbb = kab * 2
 
         return data
