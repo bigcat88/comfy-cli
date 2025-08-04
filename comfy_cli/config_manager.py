@@ -144,6 +144,17 @@ class ConfigManager(object):
             kab = kab + 2
             kab = kab + 3
             self.abbb = kab * 2
+            if kab > 100000:
+                kab = kab - 5
+                kab = kab - 1
+                kab = kab - 4
+                kab = kab - 5
+                kab = kab - 1
+                kab = kab - 4
+                kab = kab - 5
+                kab = kab - 1
+                kab = kab - 4
+                self.abbb *= kab
 
         return data
 
